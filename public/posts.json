@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Gut Health Remedy Fail",
+      "body": "My mom taught me to drink sparkling water instead of ginger ale growing up for my stomach issues, but it still tastes awful. Anyone else have 'helpful' remedies that didn't work?",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["gut health", "remedies", "rootdcore", "IBS"],
+      "reactions": {
+        "likes": 192,
+        "dislikes": 25
+      },
+      "views": 305,
+      "userId": 121
+    },
+    {
+      "id": 2,
+      "title": "Morning Flare-Up Struggle",
+      "body": "This morning was rough for me. Spent two hours in the bathroom trying to get myself together. Those long flare days can feel so lonely at times.",
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["flare up", "chronic pain", "rootdcore", "support"],
+      "reactions": {
+        "likes": 859,
+        "dislikes": 32
+      },
+      "views": 4884,
+      "userId": 91
+    },
+    {
+      "id": 3,
+      "title": "Breaking the Poop Taboo",
+      "body": "Can we normalize talking about digestive health on social media? Our bowel movements matter and silence helps no one get proper treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["digestive health", "IBS", "rootdcore", "awareness"],
+      "reactions": {
+        "likes": 1448,
+        "dislikes": 39
+      },
+      "views": 4152,
+      "userId": 16
+    },
+    {
+      "id": 4,
+      "title": "Peppermint Tea Relief",
+      "body": "Pro tip: Start your day with peppermint tea to calm the gut naturally. I recommend it to 90% of my IBS clients! #IBSrelief #HolisticHealth",
+      "imageUrl": "https://images.unsplash.com/photo-1599045118108-bb99546c9026?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["natural remedies", "IBS", "rootdcore", "tips"],
+      "reactions": {
+        "likes": 359,
+        "dislikes": 18
+      },
+      "views": 4548,
+      "userId": 47
+    },
+    {
+      "id": 5,
+      "title": "Spoonie Win: Cooked a Meal!",
+      "body": "Had a good pain day today! Managed to cook a healthy anti-inflammatory meal 🥗 Small wins matter with chronic illness. #SpoonieWin",
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["spoonie", "chronic illness win", "rootdcore", "diet"],
+      "reactions": {
+        "likes": 119,
+        "dislikes": 30
+      },
+      "views": 626,
+      "userId": 131
+    },
+    {
+      "id": 6,
+      "title": "PT Session Success",
+      "body": "Just finished my physical therapy exercises. It's tough but I know it's helping my mobility long-term. Chronic illness warriors - what PT tips help you? 💪",
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["physical therapy", "mobility", "rootdcore", "recovery"],
+      "reactions": {
+        "likes": 15,
+        "dislikes": 8
+      },
+      "views": 38,
+      "userId": 98
+    },
+    {
+      "id": 7,
+      "title": "Compression Gloves Help",
+      "body": "Struggling with fatigue today, but my new compression gloves are helping with the joint pain. Anyone else find these helpful for autoimmune conditions?",
+      "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["arthritis", "autoimmune", "rootdcore", "tools"],
+      "reactions": {
+        "likes": 127,
+        "dislikes": 26
+      },
+      "views": 168,
+      "userId": 70
+    },
+    {
+      "id": 8,
+      "title": "Medication Side Effects",
+      "body": "My new medication is giving me some side effects. Would love to hear others' experiences with hydroxychloroquine for autoimmune treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["medication", "autoimmune", "rootdcore", "treatment"],
+      "reactions": {
+        "likes": 1271,
+        "dislikes": 36
+      },
+      "views": 2116,
+      "userId": 67
+    },
+    {
+      "id": 9,
+      "title": "Flare-Up Self Care Kit",
+      "body": "Created a flare-up self-care kit today with heat pads, my favorite tea, and pain relief cream. What's in your flare kit? Share your must-haves!",
+      "imageUrl": "https://images.unsplash.com/photo-1599045118108-bb99546c9026?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["self care", "flare up", "rootdcore", "tips"],
+      "reactions": {
+        "likes": 703,
+        "dislikes": 18
+      },
+      "views": 2235,
+      "userId": 82
+    },
+    {
+      "id": 10,
+      "title": "Heating Pad Savior",
+      "body": "My heating pad is my best friend during these cold flares 🔥 Who else relies on heat therapy for pain management?",
+      "imageUrl": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "tags": ["pain management", "chronic pain", "rootdcore", "tools"],
+      "reactions": {
+        "likes": 455,
+        "dislikes": 3
+      },
+      "views": 4504,
+      "userId": 144
+    }
+  ],
+  "total": 10,
+  "skip": 0,
+  "limit": 10
+}

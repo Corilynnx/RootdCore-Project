@@ -1,0 +1,464 @@
+body {
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+    color: var(--black);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.community-container {
+  max-width: 800px;
+  margin: 10px 0;
+  background-color: var(--tan);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.tabs .active {
+    background-color: var(--orange);
+    color: white;
+}
+
+.tabs button {
+    background-color: var(--yellow);
+}
+.practitioner-scroll {
+    display: flex;
+    z-index: 10;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: visible;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.practitioner-card {
+    position: relative;
+    cursor: pointer;
+    z-index: 20;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.practitioner-card:hover {
+    transform: translateY(-6px);
+}
+
+.doctor-pics {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.note-card {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  background-color: var(--lgt-green);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.practitioner-name {
+    font-weight: bold;
+    font-size: .85rem;
+    margin-bottom: 0.25rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 365px;
+    margin: 2rem auto;
+    gap: 0.5rem;
+}
+
+
+.search-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background-color: var(--tan);
+    color: var(--black);
+}
+
+.search-input::placeholder {
+    color: var(--grey);
+    font-style: italic;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: var(--drk-orange);
+    transform: translateY(-2px);
+}
+
+.search-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--orange);
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.doctor-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2rem 2rem;
+    background-color: var(--white);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.doctormap-description {
+    padding: .35rem;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.map-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+
+.more-practitioners-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    background-color: var(--tan);
+    margin-top: 24px;
+    padding: 10px;
+    max-height: 475px;
+    overflow-y: hidden;
+}
+
+.more-practitioner-card {
+    border-radius: 16px;
+    padding: 12px 16px;
+    min-width: 180px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.more-practitioner-name {
+    font-weight: bold;
+    color: var(--tan);
+    margin-bottom: 4px;
+}
+
+.more-practitioner-specialty {
+    color: var(--grey);
+    font-size: 12px;
+}
+/*RECIPE SECTION*/
+.recipe-card {
+  position: relative;
+  cursor: pointer;
+  background-color: var(--white);
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 500px;
+}
+
+.recipe-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.recipe-img{
+    border-radius: 16px;
+}
+.recipe-detail{
+   padding: 2rem;
+   background-color: var(--green);
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   max-width: 600px;
+   margin: 2rem auto;
+   
+}
+
+.recipe-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.recipe-detail p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+
+.recipe-title {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--tan);
+    font-weight: 600;
+}
+
+.results-p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    text-align: left;
+    padding: 1rem;
+}
+
+
+.close-btn {
+    background-color: var(--yellow);
+    color: var(--grey);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+/* Tips Section Container */
+.tips-section {
+  background-color: var(--tan);
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Tips Graphic */
+.tips-graphic {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+/* Tips Title */
+.tips-title {
+  color: var(--drk-orange);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Category Tabs */
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.category-tabs button {
+  background-color: var(--white);
+  border: none;
+  color: var(--grey);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-tabs button:hover {
+  background-color: var(--salmon);
+  border-color: var(--salmon);
+}
+
+.category-tabs .active-category {
+  background-color: var(--orange);
+  color: var(--white);
+  
+}
+
+/* Tips List */
+.tips-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Tip Card */
+.tip-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tip-card h4 {
+  color: var(--drk-orange);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.tip-category {
+  display: inline-block;
+  background-color: var(--lgt-green);
+  color: var(--grey);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.tip-content {
+  color: var(--grey);
+  line-height: 1.6;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .tips-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-tabs {
+    gap: 0.3rem;
+  }
+  
+  .category-tabs button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+.tip-category.category-nutrition,
+.category-tabs button.category-nutrition {
+  background-color: var(--green);
+  color: var(--grey);
+}
+
+.tip-category.category-mental-health,
+.category-tabs button.category-mental-health {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+
+.tip-category.category-physical-activity,
+.category-tabs button.category-physical-activity {
+  background-color: var(--yellow);
+  color: var(--grey);
+}
+
+.tip-category.category-symptom-management,
+.category-tabs button.category-symptom-management {
+  background-color: var(--lgt-green);
+  color: var(--grey);
+}
+
+.tip-category.category-medical-advocacy,
+.category-tabs button.category-medical-advocacy {
+  background-color: var(--yellow);
+  color: var(--grey);
+}
+
+.tip-category.category-work-lifestyle,
+.category-tabs button.category-work-lifestyle {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+
+
+
+
+/*MOBILE QUERY*/
+@media (max-width: 500px) {
+  .recipe-card,
+  .recipe-detail {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .recipe-title {
+    font-size: 1rem;
+  }
+
+  .recipe-detail p {
+    font-size: 0.95rem;
+  }
+}

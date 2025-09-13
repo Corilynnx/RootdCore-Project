@@ -1,0 +1,61 @@
+.post-actions {
+  display: flex;
+  justify-content: space-around; /* space between each icon section */
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid var(--yellow);
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  
+}
+
+.action-btn:hover {
+  background-color: var(--yellow);
+  
+}
+
+/* Optional: consistent icon size */
+.action-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.post-avatar {
+    border-radius: 50%;
+    width: 50px;
+    
+}
+.post {
+  background-color: var(--white);
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 12px auto;
+  padding: 15px;
+}
+.p-content {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--black);
+    padding: 0 10px;
+}
+
+.timestamp {
+    color: var(--grey);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    font-size: 10px;
+    color: var(--grey);
+}

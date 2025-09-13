@@ -1,0 +1,52 @@
+/* Responsive app container for mobile sizing */
+.app-container {
+  width: 100vw;
+  max-width: 430px; /* iPhone 14 Pro Max width */
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--tan);
+  box-shadow: 0 0 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 430px) {
+  .app-container {
+    max-width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+:root {
+  --white: #fefefe;
+  --tan: #FEF9ED;
+  --yellow: #FBD37D;
+  --lgt-green: #D7D599;
+  --green: #C6C46F;
+  --orange: #FE9961;
+  --salmon: #FFC4A5;
+  --drk-orange: #FE6817;
+  --grey: #535157;
+  --black: #121113;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  line-height: 1.5;
+  background-color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+

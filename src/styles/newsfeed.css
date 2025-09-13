@@ -1,0 +1,47 @@
+/* src/styles/newsfeed.css */
+.newsfeed {
+  padding: 10px;
+  background-color: var(--white);
+}
+
+.post {
+  background-color: var(--white);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--grey);
+  padding-top: 8px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: var(--grey);
+  gap: 5px;
+  cursor: pointer;
+}

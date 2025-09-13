@@ -1,0 +1,148 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "category": "Nutrition",
+      "title": "Hydration Tip",
+      "content": "Stay hydrated throughout the day — aim for half your body weight in ounces of water daily."
+    },
+    {
+      "id": 2,
+      "category": "Nutrition",
+      "title": "Anti-Inflammatory Foods",
+      "content": "Consider an anti-inflammatory diet rich in leafy greens, berries, and omega-3 fatty acids."
+    },
+    {
+      "id": 3,
+      "category": "Nutrition",
+      "title": "Sugar Warning",
+      "content": "Avoid processed sugar and refined carbs as they can worsen inflammation and fatigue."
+    },
+    {
+      "id": 4,
+      "category": "Nutrition",
+      "title": "Snack Preparation",
+      "content": "Keep healthy snacks nearby to avoid energy crashes when you're too tired to cook."
+    },
+    {
+      "id": 5,
+      "category": "Mental Health",
+      "title": "Morning Routine",
+      "content": "Create a morning routine that includes 5–10 minutes of mindfulness or deep breathing."
+    },
+    {
+      "id": 6,
+      "category": "Mental Health",
+      "title": "Energy Boundaries",
+      "content": "Practice saying 'no' — energy is a limited resource for those with chronic conditions."
+    },
+    {
+      "id": 7,
+      "category": "Mental Health",
+      "title": "Journaling Benefits",
+      "content": "Journal regularly to release mental stress and track your emotional triggers."
+    },
+    {
+      "id": 8,
+      "category": "Mental Health",
+      "title": "Community Support",
+      "content": "Don't isolate — connect with a support group online or in your community."
+    },
+    {
+      "id": 9,
+      "category": "Physical Activity",
+      "title": "Gentle Movement",
+      "content": "Try gentle movement like stretching or yoga, even from bed if needed."
+    },
+    {
+      "id": 10,
+      "category": "Physical Activity",
+      "title": "Exercise in Chunks",
+      "content": "Break exercise into short chunks — even 5 minutes counts."
+    },
+    {
+      "id": 11,
+      "category": "Physical Activity",
+      "title": "Mobility Aids",
+      "content": "Use mobility aids if they help you stay active longer without pain."
+    },
+    {
+      "id": 12,
+      "category": "Physical Activity",
+      "title": "Listen to Your Body",
+      "content": "Always listen to your body and rest when needed — pacing is key."
+    },
+    {
+      "id": 13,
+      "category": "Symptom Management",
+      "title": "Symptom Tracking",
+      "content": "Keep a symptom tracker to identify what makes symptoms better or worse."
+    },
+    {
+      "id": 14,
+      "category": "Symptom Management",
+      "title": "Heat/Cold Therapy",
+      "content": "Apply heat or cold packs to painful areas, based on what your body responds to."
+    },
+    {
+      "id": 15,
+      "category": "Symptom Management",
+      "title": "Sleep Positions",
+      "content": "Experiment with sleep positions or support pillows for better rest."
+    },
+    {
+      "id": 16,
+      "category": "Symptom Management",
+      "title": "Flare-Up Kit",
+      "content": "Have a flare-up kit with meds, snacks, water, and distractions like coloring books or music."
+    },
+    {
+      "id": 17,
+      "category": "Medical Advocacy",
+      "title": "Doctor Visit Prep",
+      "content": "Bring a written list of symptoms and questions to each doctor visit."
+    },
+    {
+      "id": 18,
+      "category": "Medical Advocacy",
+      "title": "Health Records",
+      "content": "Ask for copies of all lab work and imaging so you can build your own health file."
+    },
+    {
+      "id": 19,
+      "category": "Medical Advocacy",
+      "title": "Second Opinions",
+      "content": "Don't be afraid to get a second (or third) opinion if you feel unheard."
+    },
+    {
+      "id": 20,
+      "category": "Medical Advocacy",
+      "title": "Medication Tracking",
+      "content": "Track your medication side effects and report anything unusual."
+    },
+    {
+      "id": 21,
+      "category": "Work & Lifestyle",
+      "title": "Workplace Accommodations",
+      "content": "Request workplace accommodations under the ADA, such as remote work or longer breaks."
+    },
+    {
+      "id": 22,
+      "category": "Work & Lifestyle",
+      "title": "Reminder Alarms",
+      "content": "Use alarms or timers to remind yourself to take breaks and drink water."
+    },
+    {
+      "id": 23,
+      "category": "Work & Lifestyle",
+      "title": "Scheduled Rest",
+      "content": "Plan rest days into your calendar just like appointments."
+    },
+    {
+      "id": 24,
+      "category": "Work & Lifestyle",
+      "title": "Meal Prep Strategy",
+      "content": "Prepare meals in bulk on good days and freeze them for flares."
+    }
+  ]
+}
