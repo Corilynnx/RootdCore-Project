@@ -1,69 +1,53 @@
-# React + TypeScript + Vite
+RootdCore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RootdCore is a community-driven social platform designed to support individuals living with chronic illnesses. The app provides a safe, compassionate space where users can share experiences, track their wellness, and connect with others who understand their journey.
 
-Currently, two official plugins are available:
+RootdCore is rooted in resilience and united in healing — helping people feel less isolated while navigating the daily challenges of chronic conditions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## Expanding the ESLint configuration
+Secure Authentication: Login and signup for personalized access.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Profile Pages: Users can customize their profiles, add friends, and track posts/photos.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Wellness Check-ins: Simple mood tracker (“How am I feeling today?”) to promote mindfulness and self-reflection.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Community Feed: A shared space where users post thoughts, recipes, and experiences related to chronic illness and healing.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Engagement Tools: Like, comment, and share posts to encourage community support and connection.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Clean, Mobile-Friendly UI: Designed with accessibility, comfort, and positivity in mind.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🌱 Purpose
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Chronic illness can often feel isolating. RootdCore was created to bridge that gap by offering a digital support network — where individuals can exchange coping strategies, celebrate victories, and find comfort in shared understanding.
+
+🛠️ Tech Stack
+
+Frontend: Vite + TypeScript
+
+Styling: CSS (light, soft color palette for an uplifting experience)
+
+Backend / APIs: Mock APIs for user data, posts, and community content
+
+Architecture: Mobile-first design
+
+🚀 Future Improvements
+
+Professional input from healthcare providers and nutritionists
+
+Recipe search powered by Spoonacular API
+
+Private groups and forums for condition-specific support
+
+Journaling & symptom tracking
+
+📖 Inspiration
+
+RootdCore is more than just an app — it’s a digital community space created to honor resilience, healing, and collective growth for people with chronic illnesses.
+
+
+<img width="394" height="812" alt="Screenshot 2025-09-13 at 3 00 17 AM" src="https://github.com/user-attachments/assets/849bb7b6-852b-40e8-9a27-280eb55aead9" />
+
+<img width="391" height="812" alt="Screenshot 2025-09-13 at 3 01 02 AM" src="https://github.com/user-attachments/assets/b130bd3d-5a71-484a-aa65-21516941bfd2" />
+<img width="392" height="811" alt="Screenshot 2025-09-13 at 3 00 34 AM" src="https://github.com/user-attachments/assets/d6c79584-d8af-4c7c-8191-6bac0b3511b6" />
