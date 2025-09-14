@@ -186,11 +186,11 @@ export const Profile = () => {
             <article key={post.id} className="post-item">
               <div className="post-user-info">
                 <img
-                  src={`https://i.pravatar.cc/100?u=${user.id}`}
-                  alt={user.name}
+                  src={user && user.id ? `https://i.pravatar.cc/100?u=${user.id}` : 'https://i.pravatar.cc/100'}
+                  alt={user && user.name ? user.name : 'User'}
                   className="post-avatar"
                 />
-                <span className="post-username">{user.name}</span>
+                <span className="post-username">{user && user.name ? user.name : 'User'}</span>
               </div>
               <p className="post-content">{post.content}</p>
               <span className="profile-timestamp">{post.timestamp}</span>
