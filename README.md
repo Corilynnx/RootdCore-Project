@@ -51,12 +51,27 @@ Journaling & symptom tracking
 
 RootdCore is more than just an app — it’s a digital community space created to honor resilience, healing, and collective growth for people with chronic illnesses.
 
+Login/Signup
+<img width="348" height="700" alt="login" src="https://github.com/user-attachments/assets/66e00a0a-a7da-41f9-b702-f10a874ae6c9" />
+<img width="348" height="705" alt="signup" src="https://github.com/user-attachments/assets/5308d3df-43d0-40b2-986a-f10c1279ecef" />
 
-<img width="394" height="812" alt="Screenshot 2025-09-13 at 3 00 17 AM" src="https://github.com/user-attachments/assets/849bb7b6-852b-40e8-9a27-280eb55aead9" />
+Newsfeed/Notifications/Profile
+<img width="394" height="812" alt="newsfeed" src="https://github.com/user-attachments/assets/e0d1a339-81a5-4e0b-830f-5a1cb7d2f51c" />
+<img width="392" height="811" alt="profile" src="https://github.com/user-attachments/assets/5757ec54-b9c6-4278-8d3d-37433a197f98" />
+<img width="428" height="708" alt="notification" src="https://github.com/user-attachments/assets/0e1f656b-1945-4b5b-a30a-24f59c1b1480" />
 
-<img width="391" height="812" alt="Screenshot 2025-09-13 at 3 01 02 AM" src="https://github.com/user-attachments/assets/b130bd3d-5a71-484a-aa65-21516941bfd2" />
-<img width="392" height="811" alt="Screenshot 2025-09-13 at 3 00 34 AM" src="https://github.com/user-attachments/assets/d6c79584-d8af-4c7c-8191-6bac0b3511b6" />
-<img width="430" height="702" alt="Screenshot 2025-09-15 at 12 19 36 AM" src="https://github.com/user-attachments/assets/94eccd19-a453-4d3a-95ff-3d1ce70c49c5" />
-<img width="357" height="704" alt="Screenshot 2025-09-15 at 12 20 45 AM" src="https://github.com/user-attachments/assets/2e0bd827-40cc-4b4d-a7af-c32261b55424" />
-<img width="428" height="708" alt="Screenshot 2025-09-15 at 12 16 51 AM" src="https://github.com/user-attachments/assets/b8fc12b1-da2b-4d15-94ea-010b3682d2ec" />
-<img width="347" height="703" alt="Screenshot 2025-09-15 at 12 22 50 AM" src="https://github.com/user-attachments/assets/c0b46bf2-ad15-47fe-b4c5-320e12df7f24" />
+
+Community
+<img width="391" height="812" alt="doctor-tab" src="https://github.com/user-attachments/assets/7c0b23c3-22fe-48bc-b4ab-4898d93db57a" />
+<img width="430" height="702" alt="recipe-tab" src="https://github.com/user-attachments/assets/6439621e-8f53-4668-94a9-4fcce1c82dc7" />
+<img width="357" height="704" alt="recipe-description" src="https://github.com/user-attachments/assets/06fd7bc7-1ce9-44db-828a-5dbf08cc23c3" />
+<img width="352" height="705" alt="nutrition" src="https://github.com/user-attachments/assets/527ed2e8-d66a-48a1-9503-deb43a0a2143" />
+
+
+
+
+
+
+
+
+
