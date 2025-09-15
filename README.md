@@ -50,6 +50,7 @@ Journaling & symptom tracking
 📖 Inspiration
 
 RootdCore is more than just an app — it’s a digital community space created to honor resilience, healing, and collective growth for people with chronic illnesses.
+
 Login/Signup
 
 <img width="148" height="400" alt="login" src="https://github.com/user-attachments/assets/66e00a0a-a7da-41f9-b702-f10a874ae6c9" />
@@ -73,8 +74,8 @@ Community
 
 <img width="191" height="412" alt="doctor-tab" src="https://github.com/user-attachments/assets/7c0b23c3-22fe-48bc-b4ab-4898d93db57a" />
 <img width="230" height="402" alt="recipe-tab" src="https://github.com/user-attachments/assets/6439621e-8f53-4668-94a9-4fcce1c82dc7" />
-<img width="157" height="304" alt="recipe-description" src="https://github.com/user-attachments/assets/06fd7bc7-1ce9-44db-828a-5dbf08cc23c3" />
-<img width="152" height="305" alt="nutrition" src="https://github.com/user-attachments/assets/527ed2e8-d66a-48a1-9503-deb43a0a2143" />
+<img width="197" height="404" alt="recipe-description" src="https://github.com/user-attachments/assets/06fd7bc7-1ce9-44db-828a-5dbf08cc23c3" />
+<img width="192" height="405" alt="nutrition" src="https://github.com/user-attachments/assets/527ed2e8-d66a-48a1-9503-deb43a0a2143" />
 
 
 
