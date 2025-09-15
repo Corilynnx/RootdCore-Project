@@ -1,0 +1,11 @@
+/* Netlify SPA redirect configuration */
+/* This will redirect all requests to index.html except for files that exist */
+[[redirects]]
+  from = "/app/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
