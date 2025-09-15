@@ -4,6 +4,11 @@ RootdCore is a community-driven social platform designed to support individuals 
 
 RootdCore is rooted in resilience and united in healing — helping people feel less isolated while navigating the daily challenges of chronic conditions.
 
+
+Project Link 
+
+rootdcore-app.netlify.app
+
 ✨ Features
 
 Secure Authentication: Login and signup for personalized access.
