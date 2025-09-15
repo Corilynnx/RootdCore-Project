@@ -56,3 +56,7 @@ RootdCore is more than just an app — it’s a digital community space created 
 
 <img width="391" height="812" alt="Screenshot 2025-09-13 at 3 01 02 AM" src="https://github.com/user-attachments/assets/b130bd3d-5a71-484a-aa65-21516941bfd2" />
 <img width="392" height="811" alt="Screenshot 2025-09-13 at 3 00 34 AM" src="https://github.com/user-attachments/assets/d6c79584-d8af-4c7c-8191-6bac0b3511b6" />
+<img width="430" height="702" alt="Screenshot 2025-09-15 at 12 19 36 AM" src="https://github.com/user-attachments/assets/94eccd19-a453-4d3a-95ff-3d1ce70c49c5" />
+<img width="357" height="704" alt="Screenshot 2025-09-15 at 12 20 45 AM" src="https://github.com/user-attachments/assets/2e0bd827-40cc-4b4d-a7af-c32261b55424" />
+<img width="428" height="708" alt="Screenshot 2025-09-15 at 12 16 51 AM" src="https://github.com/user-attachments/assets/b8fc12b1-da2b-4d15-94ea-010b3682d2ec" />
+<img width="347" height="703" alt="Screenshot 2025-09-15 at 12 22 50 AM" src="https://github.com/user-attachments/assets/c0b46bf2-ad15-47fe-b4c5-320e12df7f24" />
