@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Createpost } from '../components/Createpost';
 import '../styles/profile.css';
 import { Navbar } from '../components/Navbar';
 import { Heart, MessageCircleMore, SendHorizontal } from 'lucide-react';
@@ -138,7 +139,24 @@ export const Profile = () => {
   return ( 
     <div className="profile">
       <Navbar />
-     
+
+      {/* Add Createpost at the top of the profile page */}
+      <Createpost onCreatePost={(newPost) => {
+        setPosts((prev) => [
+          {
+            id: Date.now().toString(),
+            content: newPost.content ?? '',
+            timestamp: 'Just now',
+            isLiked: false,
+            likes: 0,
+            comments: [],
+            isShared: false,
+            shares: 0,
+          },
+          ...prev,
+        ]);
+      }} />
+
       <header className="profile-header">
         <img src={`https://i.pravatar.cc/150?u=${user.id}`} alt={user.name} className="profile-pic" />
         <h1 className='profile-name'>{user.name}</h1>
