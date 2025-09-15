@@ -52,13 +52,13 @@ Journaling & symptom tracking
 RootdCore is more than just an app — it’s a digital community space created to honor resilience, healing, and collective growth for people with chronic illnesses.
 
 Login/Signup
-<img width="348" height="400" alt="login" src="https://github.com/user-attachments/assets/66e00a0a-a7da-41f9-b702-f10a874ae6c9" />
-<img width="348" height="405" alt="signup" src="https://github.com/user-attachments/assets/5308d3df-43d0-40b2-986a-f10c1279ecef" />
+<img width="148" height="400" alt="login" src="https://github.com/user-attachments/assets/66e00a0a-a7da-41f9-b702-f10a874ae6c9" />
+<img width="148" height="405" alt="signup" src="https://github.com/user-attachments/assets/5308d3df-43d0-40b2-986a-f10c1279ecef" />
 
 Newsfeed/Notifications/Profile
-<img width="394" height="400" alt="newsfeed" src="https://github.com/user-attachments/assets/e0d1a339-81a5-4e0b-830f-5a1cb7d2f51c" />
-<img width="392" height="411" alt="profile" src="https://github.com/user-attachments/assets/5757ec54-b9c6-4278-8d3d-37433a197f98" />
-<img width="328" height="408" alt="notification" src="https://github.com/user-attachments/assets/0e1f656b-1945-4b5b-a30a-24f59c1b1480" />
+<img width="194" height="400" alt="newsfeed" src="https://github.com/user-attachments/assets/e0d1a339-81a5-4e0b-830f-5a1cb7d2f51c" />
+<img width="192" height="411" alt="profile" src="https://github.com/user-attachments/assets/5757ec54-b9c6-4278-8d3d-37433a197f98" />
+<img width="128" height="408" alt="notification" src="https://github.com/user-attachments/assets/0e1f656b-1945-4b5b-a30a-24f59c1b1480" />
 
 
 Community
