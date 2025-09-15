@@ -61,12 +61,12 @@ Login/Signup
 Newsfeed/Notifications
 
 <img width="194" height="400" alt="newsfeed" src="https://github.com/user-attachments/assets/e0d1a339-81a5-4e0b-830f-5a1cb7d2f51c" />
-<img width="192" height="411" alt="profile" src="https://github.com/user-attachments/assets/5757ec54-b9c6-4278-8d3d-37433a197f98" />
+<img width="228" height="408" alt="notification" src="https://github.com/user-attachments/assets/0e1f656b-1945-4b5b-a30a-24f59c1b1480" />
 
 Profile
 
+<img width="192" height="411" alt="profile" src="https://github.com/user-attachments/assets/5757ec54-b9c6-4278-8d3d-37433a197f98" />
 
-<img width="228" height="408" alt="notification" src="https://github.com/user-attachments/assets/0e1f656b-1945-4b5b-a30a-24f59c1b1480" />
 
 
 Community
