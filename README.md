@@ -17,7 +17,7 @@ Profile Pages: Users can customize their profiles, add friends, and track posts/
 
 Wellness Check-ins: Simple mood tracker (“How am I feeling today?”) to promote mindfulness and self-reflection.
 
-Community Feed: A shared space where users post thoughts, recipes, and experiences related to chronic illness and healing.
+Community Feed: A shared space where users can search for holistic practitioners, recipes, and helpful tips related to chronic illness and healing.
 
 Engagement Tools: Like, comment, and share posts to encourage community support and connection.
 
@@ -40,8 +40,6 @@ Architecture: Mobile-first design
 🚀 Future Improvements
 
 Professional input from healthcare providers and nutritionists
-
-Recipe search powered by Spoonacular API
 
 Private groups and forums for condition-specific support
 
@@ -76,9 +74,9 @@ Profile
 
 Community
 
-<img width="197" height="425" alt="Screenshot 2025-09-20 at 11 22 15 AM" src="https://github.com/user-attachments/assets/8e4e300d-c38c-4cb6-bc23-7cf894cff47a" />
-<img width="193" height="423" alt="Screenshot 2025-09-20 at 11 23 51 AM" src="https://github.com/user-attachments/assets/011d69eb-04b9-4aa6-92a9-a4f427d71704" />
 <img width="195" height="421" alt="Screenshot 2025-09-20 at 11 24 03 AM" src="https://github.com/user-attachments/assets/322ce8e4-4f97-4cd8-95d7-3582ba628787" />
+<img width="193" height="423" alt="Screenshot 2025-09-20 at 11 23 51 AM" src="https://github.com/user-attachments/assets/011d69eb-04b9-4aa6-92a9-a4f427d71704" />
+<img width="197" height="425" alt="Screenshot 2025-09-20 at 11 22 15 AM" src="https://github.com/user-attachments/assets/8e4e300d-c38c-4cb6-bc23-7cf894cff47a" />
 
 
 
