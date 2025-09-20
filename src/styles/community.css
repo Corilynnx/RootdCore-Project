@@ -8,6 +8,7 @@ body {
     align-items: center;
     height: auto;
     margin-bottom: 30px;
+    margin-top: 30px;;
     color: var(--black);
     overflow-x: hidden;
     display: flex;
@@ -16,7 +17,7 @@ body {
 
 .community-container {
   max-width: 800px;
-  margin: 10px 0;
+  margin: 10px 10px;;
   background-color: var(--tan);
 }
 
@@ -317,7 +318,7 @@ body {
 
 /* Tips Title */
 .tips-title {
-  color: var(--drk-orange);
+  color: var(--grey);
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
