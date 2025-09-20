@@ -1,6 +1,8 @@
 import '../styles/community.css';
 import { useState, useRef, useEffect } from 'react';
 import { Navbar } from '../components/Navbar';
+import { FooterNav } from '../components/FooterNav';
+
 
 import SignupGraphic from '../assets/Sign-up-graphic.png';
 import DrLee from '../assets/Amara-lee.jpg';
@@ -363,6 +365,7 @@ export const Community = () => {
           </div>
         )}
       </div>
+      <FooterNav />
     </div>
   );
 };

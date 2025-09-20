@@ -3,6 +3,7 @@ import { Createpost } from '../components/Createpost';
 import '../styles/profile.css';
 import { Navbar } from '../components/Navbar';
 import { Heart, MessageCircleMore, SendHorizontal } from 'lucide-react';
+import { FooterNav } from '../components/FooterNav';
 
 export const Profile = () => {
   const [user, setUser] = useState<any>(null);
@@ -240,6 +241,7 @@ export const Profile = () => {
         </ul>
       </div>
       <button className="load-more-post">See More Posts</button>
+      <FooterNav />
     </div>
     );
   };

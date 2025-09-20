@@ -1,0 +1,67 @@
+.notification-bell-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.notification-badge {
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    background: var(--drk-orange, #ff9800);
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    min-width: 18px;
+    text-align: center;
+    z-index: 10;
+    
+}
+
+
+.footer-nav {
+  position: fixed;         /* FIXED instead of sticky */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;            /* consistent height */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  background-color: var(--tan, #FEF9ED);
+  border-top: 2px solid var(--yellow, #FBD37D);
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+    margin: 0 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.icon-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 0.65rem;
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+}

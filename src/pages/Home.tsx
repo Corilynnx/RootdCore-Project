@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Post, type PostProps } from '../components/Posts';
 import { Navbar } from '../components/Navbar';
+import { FooterNav } from '../components/FooterNav';
 import { Createpost } from '../components/Createpost';
 
 
@@ -129,6 +130,7 @@ export const Home = () => {
     <div className="page-container">
         
       <Navbar />
+      
       <Createpost onCreatePost={(newPost) => {
         setPosts((prev) => [
           {
@@ -162,8 +164,10 @@ export const Home = () => {
             initialShares={post.initialShares}
             imageUrl={post.imageUrl}
           />
+          
         ))}
       </div>
+      <FooterNav />
     </div>
   );
 };

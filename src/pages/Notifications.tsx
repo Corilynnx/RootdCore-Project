@@ -3,6 +3,7 @@
 import { Navbar } from '../components/Navbar';
 import '../styles/notifications.css';
 import { useState } from 'react';
+import { FooterNav } from '../components/FooterNav';
 
 
 
@@ -50,6 +51,7 @@ const Notifications = () => {
                   <span className='notification-date'>{notification.date}</span>
                 </div>
             ))}
+            <FooterNav />
         </div>
    )
    
