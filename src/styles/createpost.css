@@ -1,9 +1,9 @@
 .create-container{
     display: block;
-    max-width: 819px;
+    max-width: 960px;
     margin: 10px auto;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     height: 200px;
     background-color: var(--white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

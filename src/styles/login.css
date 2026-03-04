@@ -19,6 +19,7 @@
 .login-graphic {
     width: 100%;
     height: auto;
+    max-width: 400px;
     margin: 0 auto;
     display: block;
 }

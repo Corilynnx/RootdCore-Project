@@ -293,6 +293,7 @@ export const Community = () => {
 
         {activeTab === 'recipes' && (
           <div className="recipe-section">
+            <p className='recipe-subtext'>Find the best IBS friendly recipes to make right at home!</p>
             <input
               type="text"
               className="search-bar"
@@ -322,8 +323,8 @@ export const Community = () => {
                   </div>
                 )}
                 {selectedRecipe?.analyzedInstructions?.[0]?.steps
-                  ?.filter((step: any) => step.step.toLowerCase() !== 'directions')
-                  .map((step: any, i: number) => (
+                  ?.filter((step: { step: string }) => step.step.toLowerCase() !== 'directions')
+                  .map((step: { step: string }, i: number) => (
                     <li key={i}>{step.step}</li>
                 ))}
               </div>

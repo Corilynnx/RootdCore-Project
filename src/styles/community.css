@@ -232,6 +232,7 @@ body {
   cursor: pointer;
   background-color: var(--white);
   margin: 1rem auto;
+  margin-bottom: 2.5rem;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -276,6 +277,15 @@ body {
     text-align: center;
     color: var(--tan);
     font-weight: 600;
+}
+
+.recipe-subtext {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--grey);
+    font-size: 1rem;
 }
 
 .results-p {

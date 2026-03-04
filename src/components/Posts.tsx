@@ -1,4 +1,4 @@
-import '../styles/posts.css';
+
 import { useState } from 'react';
 import { Heart, MessageCircleMore, SendHorizontal, Facebook, Twitter, Linkedin, Mail } from 'lucide-react';
 

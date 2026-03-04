@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 15px 20px;
   background-color: var(--tan, #FEF9ED);
   border-bottom: 2px solid var(--yellow, #FBD37D);
   position: fixed;
@@ -40,8 +40,6 @@
   font-weight: bold;
   cursor: pointer;
   background-color: var(--yellow, #FBD37D);
-  position: fixed;
-  right: 12px;
   padding: 5px 10px;
   border-radius: 8px;
 }

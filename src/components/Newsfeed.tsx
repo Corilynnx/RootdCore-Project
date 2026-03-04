@@ -1,4 +1,4 @@
-import '../styles/newsfeed.css';
+
 import { useEffect, useState } from 'react';
 import { Post } from './Posts';
 
@@ -12,6 +12,20 @@ type PostData = {
   initialLikes: number;
   initialComments: string[];
   initialShares: number;
+};
+
+type ApiPost = {
+  id: number;
+  userId: number;
+  body: string;
+  reactions?: {
+    likes: number;
+  };
+};
+
+type ApiUser = {
+  id: number;
+  name: string;
 };
 
 export const Newsfeed = () => {
@@ -29,8 +43,8 @@ export const Newsfeed = () => {
         const usersRes = await fetch('https://jsonplaceholder.typicode.com/users');
         const usersData = await usersRes.json();
 
-        const formattedPosts: PostData[] = postsJson.posts.slice(0, 10).map((post: any) => {
-          const user = usersData.find((u: any) => u.id === post.userId) || {
+        const formattedPosts: PostData[] = postsJson.posts.slice(0, 10).map((post: ApiPost) => {
+          const user = usersData.find((u: ApiUser) => u.id === post.userId) || {
             id: post.userId,
             name: `User ${post.userId}`
           };
