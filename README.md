@@ -1,53 +1,116 @@
-RootdCore
-
-RootdCore is a community-driven social platform designed to support individuals living with chronic illnesses. The app provides a safe, compassionate space where users can share experiences, track their wellness, and connect with others who understand their journey.
-
-RootdCore is rooted in resilience and united in healing — helping people feel less isolated while navigating the daily challenges of chronic conditions.
 
 
-Project Link 
 
-rootdcore-app.netlify.app
 
-✨ Features
+## RootdCore
 
-Secure Authentication: Login and signup for personalized access.
+RootdCore is a community-focused web application designed to support individuals living with chronic illnesses. The platform provides a space where users can connect, share experiences, and track their wellness through a simple social interface.
 
-Profile Pages: Users can customize their profiles, add friends, and track posts/photos.
+The application combines community interaction features with wellness tracking tools to create a supportive digital environment that reduces isolation and encourages shared healing.
 
-Wellness Check-ins: Simple mood tracker (“How am I feeling today?”) to promote mindfulness and self-reflection.
+🔗 Live Demo:
+[Live Demo](rootdcore-app.netlify.app)
 
-Community Feed: A shared space where users can search for holistic practitioners, recipes, and helpful tips related to chronic illness and healing.
+## Features
+User Authentication
 
-Engagement Tools: Like, comment, and share posts to encourage community support and connection.
+Secure login and signup flow
 
-Clean, Mobile-Friendly UI: Designed with accessibility, comfort, and positivity in mind.
+Personalized user accounts
 
-🌱 Purpose
+Persistent user sessions
 
-Chronic illness can often feel isolating. RootdCore was created to bridge that gap by offering a digital support network — where individuals can exchange coping strategies, celebrate victories, and find comfort in shared understanding.
+User Profiles
 
-🛠️ Tech Stack
+Customizable profile pages
 
-Frontend: Vite + TypeScript
+View and manage user-generated content
 
-Styling: CSS (light, soft color palette for an uplifting experience)
+Track posts and shared media
 
-Backend / APIs: Mock APIs for user data, posts, and community content
+Wellness Check-Ins
 
-Architecture: Mobile-first design
+Daily mood tracker (“How am I feeling today?”)
 
-🚀 Future Improvements
+Encourages mindfulness and self-reflection
 
-Professional input from healthcare providers and nutritionists
+Stores wellness entries tied to user profiles
 
-Private groups and forums for condition-specific support
+Community Feed
 
-Journaling & symptom tracking
+Shared community space for posts and updates
 
-📖 Inspiration
+Users can search for:
 
-RootdCore is more than just an app — it’s a digital community space created to honor resilience, healing, and collective growth for people with chronic illnesses.
+holistic practitioners
+
+chronic illness resources
+
+recipes and wellness tips
+
+Social Engagement
+
+Like posts
+
+Comment on posts
+
+Share helpful content with the community
+
+Responsive Interface
+
+Mobile-first layout
+
+Clean UI designed for accessibility and ease of use
+
+Soft color palette to create a calm user experience
+
+## Tech Stack
+
+Frontend
+
+Vite
+
+TypeScript
+
+HTML5
+
+CSS3
+
+Architecture
+
+Component-based structure
+
+Mobile-first responsive design
+
+Modular UI layout
+
+Data
+
+Mock APIs for user accounts, posts, and wellness check-ins
+
+Development Tools
+
+Git
+
+GitHub
+
+Netlify deployment
+
+## Project Goals
+
+RootdCore was created to explore how technology can support individuals managing chronic health conditions. The project focuses on building a compassionate digital community where users can exchange coping strategies, share experiences, and feel less alone in their journey.
+
+## Future Improvements
+
+-Planned features for future development include:
+
+-Private support groups for specific conditions
+
+-Integrated journaling and symptom tracking
+
+-Expert resources from healthcare providers and nutritionists
+
+-Expanded search tools for wellness professionals and dietary resources
 
 Login/Signup
 
