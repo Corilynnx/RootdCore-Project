@@ -9,7 +9,7 @@ RootdCore is a community-focused web application designed to support individuals
 The application combines community interaction features with wellness tracking tools to create a supportive digital environment that reduces isolation and encourages shared healing.
 
 🔗 Live Demo:
-[Live Demo](rootdcore-app.netlify.app)
+[Live Demo](https://rootdcore-app.netlify.app/)
 
 ## Features
 User Authentication
